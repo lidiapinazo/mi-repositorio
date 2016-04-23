@@ -1,0 +1,31 @@
+{
+  "name": "cv-app",
+  "version": "1.0.0",
+  "description": "Curriculum Vitae app",
+  "main": "app.js",
+  "scripts": {
+    "test": "grunt tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lidiapinazo/mi-repositorio.git"
+  },
+  "keywords": [
+    "key",
+    "words"
+  ],
+  "author": "Lidia <lidia_pinazo@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lidiapinazo/mi-repositorio/issues"
+  },
+  "homepage": "https://github.com/lidiapinazo/mi-repositorio#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}

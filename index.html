@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>CV Lidia Pinazo Sánchez</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+  </head>
+
+  <!-- <body onresize="javascript:redimensionar();"> -->
+  <body>
+    <div id="app_menu">
+      <i id="menu_bars" class="fa fa-bars cv-menu"></i>
+    </div>
+    <nav id="app_menu_options">
+      <ul id="nav_app_menu">
+        <li class="cv-app-menu-list-empty">&nbsp;</li>
+        <li class="cv-app-menu-list" data-template="personal_data">Datos personales</li>
+        <li class="cv-app-menu-list" id="li_experiencia" data-template="experiencia">Experiencia profesional</li>
+        <li class="cv-app-menu-list" id="li_f_academica" data-template="f_academica">Formación académica</li>
+        <li class="cv-app-menu-list" id="li_f_complementaria" data-template="f_complementaria">Otros conocimientos</li>
+        <li class="cv-app-menu-list" id="li_contacto" data-template="contacto">Déjame un comentario</li>
+      </ul>
+    </nav>
+    <header id="first_header">
+      <div class="cv-center">
+        <figure class="cv-center cv-photo">
+          <img src="1.jpg" height="170px" alt="Foto" id="photo" />
+        </figure>
+        <div id="social_networks" class="cv-center cv-social-networks">
+          <a id="a_linkedin" class="cv-icons"><i class="fa fa-linkedin-square fa-4x"></i></a><br />
+          <a id="a_facebook" class="cv-icons"><i class="fa fa-facebook-square fa-4x"></i></a><br />
+          <a id="a_email" class="cv-icons"><i class="fa fa-envelope-square fa-4x" aria-hidden="true"></i></a>
+        </div>
+      </div>
+      <h1 class="cv-center">Lidia Pinazo Sánchez</h1>
+      <h2 class="cv-center">Desarrolladora web</h2>
+      <div id="print_data" class="cv-center">
+        <a id="a_print" title="Imprimir CV"><i class="fa fa-print fa-2x cv-icons-print" id="icon_print"></i></a>
+        <a id="a_download" title="Descargar PDF"><i class="fa fa-file-pdf-o fa-2x cv-icons-print"  id="icon_download"></i></a>
+      </div>
+
+
+    </header>
+    <div id="content" class="cv-content">
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+    <script type="text/javascript" src="appIFE.js"></script>
+  </body>
+
+</html>
